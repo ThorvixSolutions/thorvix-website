@@ -140,14 +140,14 @@ const content: SiteContent = {
   },
 
   trusted: {
-    label: '\u2726 Trusted by teams shipping at scale',
+    label: 'Trusted by Enterprise Leaders',
     logos: [
-      { name: 'NovaGrid', tag: 'ENTERPRISE', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
-      { name: 'Loopstack', tag: 'SAAS', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
-      { name: 'Cartello', tag: 'E-COMMERCE', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
-      { name: 'Keystone', tag: 'REAL ESTATE', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
-      { name: 'Meridian Ops', tag: 'ENTERPRISE', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
-      { name: 'Veltrix', tag: 'FINTECH', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
+      { name: 'Ren Solutions', tag: 'DISTRUBUTOR', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782842257/ren-solutions-logo-3_ngqsuj.png' },
+      { name: 'GAJET', tag: 'E-COMMERCE', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782843644/4-gajet-logo-png_bkwk9y.png' },
+      // { name: 'TP LINK PAKISTAN', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
+      // { name: 'ECOFLOW', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
+      // { name: 'BLACK ', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
+      // { name: 'HAVIT', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
     ],
   },
 

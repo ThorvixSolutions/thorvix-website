@@ -6,7 +6,7 @@ export function TrustedSection() {
 
   const items = trusted.logos.map(logo => (
     <span key={logo.name} className="inline-flex items-center gap-3 px-12 border-r border-border font-heading font-semibold text-xl uppercase text-white grayscale hover:grayscale-0 transition-colors">
-      <img src={logo.imageUrl} alt={logo.name} width={20} height={20} className="opacity-60" />
+      <img src={logo.imageUrl} alt={logo.name} width={40} height={40} className="opacity-100" />
       {logo.name}
       <span className="font-mono text-[9px] text-muted-2 border border-border px-1.5 py-0.5">{logo.tag}</span>
     </span>
@@ -21,7 +21,7 @@ export function TrustedSection() {
         WebkitMaskImage: 'linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent)',
         maskImage: 'linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent)',
       }}>
-        <Marquee items={items} speed={36} />
+        <Marquee items={items} speed={25} />
       </div>
     </div>
   );

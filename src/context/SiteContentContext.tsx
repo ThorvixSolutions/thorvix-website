@@ -143,8 +143,8 @@ const content: SiteContent = {
     label: 'Trusted by Enterprise Leaders',
     logos: [
       { name: 'Ren Solutions', tag: 'DISTRUBUTOR', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782842257/ren-solutions-logo-3_ngqsuj.png' },
-      { name: 'GAJET', tag: 'E-COMMERCE', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782843644/4-gajet-logo-png_bkwk9y.png' },
-      // { name: 'TP LINK PAKISTAN', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
+      { name: 'GAJET', tag: 'E-COMMERCE', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782939793/gajet-logo-web_juvt0s.png' },
+      { name: 'Ash Official', tag: 'E-COMMERCE', imageUrl: 'https://res.cloudinary.com/dlktkucvl/image/upload/v1782940966/ASH_OFFICIAL_logo_2_chzunr.webp' },
       // { name: 'ECOFLOW', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
       // { name: 'BLACK ', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },
       // { name: 'HAVIT', tag: 'DISTRIBUTION', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781529314/byr8enhewovhfdtlhcbz.avif' },

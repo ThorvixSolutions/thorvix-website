@@ -5,7 +5,7 @@ export function MarqueeBar() {
   const { marqueeItems } = useSiteContent();
 
   const items = marqueeItems.map(text => (
-    <span key={text} className="font-display text-[22px] tracking-[0.1em] text-black px-8 flex items-center gap-6 after:content-['\u2726'] after:text-sm">
+    <span key={text} className="font-display text-[22px] tracking-[0.1em] text-black px-8 flex items-center gap-24 after:content-['✦'] after:text-sm">
       {text}
     </span>
   ));

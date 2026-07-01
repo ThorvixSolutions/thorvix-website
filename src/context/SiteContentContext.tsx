@@ -129,7 +129,7 @@ const content: SiteContent = {
   hero: {
     tag: 'AI \u00b7 Engineering \u00b7 Automation',
     headline: { line1: 'Break', accent: 'Every', line2: 'Bottleneck.' },
-    sub: 'We deploy custom AI agents, dedicated engineering teams, and intelligent automation\u2014so you scale without the hiring overhead or the headache.',
+    sub: 'We deploy custom AI agents, dedicated engineering teams, and intelligent automation so you scale without the hiring overhead or the headache.',
     primaryCta: 'Book a Strategy Call',
     ghostCta: 'View Services \u2193',
     stats: [
@@ -155,14 +155,14 @@ const content: SiteContent = {
     label: 'What We Do',
     headingLines: ['Capabilities', 'Engineered', 'For Scale'],
     outlineIndex: 2,
-    intro: 'Six high-impact verticals. One ruthlessly focused team. We don\u2019t consult\u2014we execute, embed, and deliver production-grade outcomes.',
+    intro: 'Six high-impact verticals. One ruthlessly focused team. We don\u2019t consult we execute, embed, and deliver production-grade outcomes.',
     cards: [
       { num: '01 / AI AUTOMATION', title: 'AI Automation', desc: 'Replace repetitive workflows with intelligent systems that learn, adapt, and execute at machine speed. Reduction in ops costs, guaranteed.' },
       { num: '02 / FLAGSHIP', title: 'AI Agents & Chatbots', desc: 'Context-aware LLM-powered agents that handle support, qualify leads, and operate 24/7 with your brand\u2019s exact voice.', featured: true },
-      { num: '03 / ENGINEERING', title: 'Dedicated Dev Teams', desc: 'Senior full-stack engineers and AI architects embedded directly into your workflow\u2014no recruitment, no HR overhead.' },
+      { num: '03 / ENGINEERING', title: 'Dedicated Dev Teams', desc: 'Senior full-stack engineers and AI architects embedded directly into your workflow no recruitment, no HR overhead.' },
       { num: '04 / FLEX', title: 'Staff Augmentation', desc: 'Scale engineering capacity on demand. Ramp up for a sprint, ramp down after launch. Pure flexibility, zero commitment bloat.' },
       { num: '05 / BUILD', title: 'Custom Software', desc: 'Robust, scalable architectures from database schema to deployed frontend. We own the full stack and the full outcome.' },
-      { num: '06 / OPTIMIZE', title: 'Process Optimization', desc: 'Data-driven bottleneck mapping and elimination. We don\u2019t fix symptoms\u2014we redesign the system that causes them.' },
+      { num: '06 / OPTIMIZE', title: 'Process Optimization', desc: 'Data-driven bottleneck mapping and elimination. We don\u2019t fix symptoms we redesign the system that causes them.' },
     ],
   },
 
@@ -180,11 +180,11 @@ const content: SiteContent = {
       { text: '\nWe bring the expertise, the infra, and the execution.' },
     ],
     items: [
-      { num: '01', title: 'Faster Deployment', body: 'From strategy session to production deployment in weeks\u2014not the quarters your in-house hiring would take. We move at startup speed with enterprise-grade reliability.' },
-      { num: '02', title: 'Zero Hiring Overhead', body: 'Bypass recruiters, HR processes, payroll taxes, and benefit packages. Get senior-level engineers who hit the ground running on day one\u2014billed simply, transparently.' },
+      { num: '01', title: 'Faster Deployment', body: 'From strategy session to production deployment in weeks not the quarters your in-house hiring would take. We move at startup speed with enterprise-grade reliability.' },
+      { num: '02', title: 'Zero Hiring Overhead', body: 'Bypass recruiters, HR processes, payroll taxes, and benefit packages. Get senior-level engineers who hit the ground running on day one billed simply, transparently.' },
       { num: '03', title: 'Senior Talent, Immediately', body: 'No juniors padded into engagements. Every Thorvix team member is mid-to-senior level with documented production experience in AI, full-stack, and cloud infrastructure.' },
-      { num: '04', title: 'Elastic Team Scaling', body: 'Need 2 engineers for a sprint and 8 for a launch? We scale seamlessly. Contract adjusts monthly\u2014your engineering capacity matches your business reality.' },
-      { num: '05', title: 'AI-First from Day One', body: 'Every engagement is designed with AI augmentation in mind. We don\u2019t bolt AI on at the end\u2014it\u2019s architecturally native from the first sprint.' },
+      { num: '04', title: 'Elastic Team Scaling', body: 'Need 2 engineers for a sprint and 8 for a launch? We scale seamlessly. Contract adjusts monthly your engineering capacity matches your business reality.' },
+      { num: '05', title: 'AI-First from Day One', body: 'Every engagement is designed with AI augmentation in mind. We don\u2019t bolt AI on at the end it\u2019s architecturally native from the first sprint.' },
     ],
   },
 
@@ -203,16 +203,16 @@ const content: SiteContent = {
 
   solutions: {
     tabs: [
-      { id: 'support', num: '01 \u2014 LIVE', title: 'Customer Support' },
-      { id: 'leads', num: '02 \u2014 ACTIVE', title: 'Lead Generation' },
-      { id: 'internal', num: '03 \u2014 INTERNAL', title: 'Internal Assistants' },
-      { id: 'workflow', num: '04 \u2014 INFRA', title: 'Workflow Automation' },
-      { id: 'data', num: '05 \u2014 ANALYTICS', title: 'Data Analysis' },
+      { id: 'support', num: '01   LIVE', title: 'Customer Support' },
+      { id: 'leads', num: '02   ACTIVE', title: 'Lead Generation' },
+      { id: 'internal', num: '03   INTERNAL', title: 'Internal Assistants' },
+      { id: 'workflow', num: '04   INFRA', title: 'Workflow Automation' },
+      { id: 'data', num: '05   ANALYTICS', title: 'Data Analysis' },
     ],
     panels: [
       {
         id: 'support', tag: 'Customer Support AI', heading: '24/7 Autonomous Resolution',
-        body: 'Context-aware agents that resolve Tier-1 and Tier-2 tickets independently\u2014with your exact brand voice, product knowledge, and escalation logic built in.',
+        body: 'Context-aware agents that resolve Tier-1 and Tier-2 tickets independently with your exact brand voice, product knowledge, and escalation logic built in.',
         mockupLines: [
           { speaker: 'USER', text: 'My order hasn\u2019t arrived in 12 days.' },
           { speaker: '', text: '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500', dim: true },
@@ -236,7 +236,7 @@ const content: SiteContent = {
       },
       {
         id: 'internal', tag: 'Internal AI Assistants', heading: 'Your Team\u2019s Private Brain',
-        body: 'Secure, private knowledge bases that give your team instant answers from internal docs, SOPs, CRM data, and codebases\u2014without ever leaving your infrastructure.',
+        body: 'Secure, private knowledge bases that give your team instant answers from internal docs, SOPs, CRM data, and codebases without ever leaving your infrastructure.',
         mockupLines: [
           { speaker: 'TEAM', text: 'What\u2019s our refund policy for SaaS plans?' },
           { speaker: '', text: '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500', dim: true },
@@ -248,7 +248,7 @@ const content: SiteContent = {
       },
       {
         id: 'workflow', tag: 'Workflow Automation', heading: 'Connect Everything.',
-        body: 'We wire your CRMs, databases, Slack, email, and APIs into unified automated pipelines\u2014eliminating the manual handoffs that silently drain your team\u2019s capacity.',
+        body: 'We wire your CRMs, databases, Slack, email, and APIs into unified automated pipelines eliminating the manual handoffs that silently drain your team\u2019s capacity.',
         mockupLines: [
           { speaker: 'TRIGGER', text: 'New deal closed in HubSpot.' },
           { speaker: '', text: '\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500', dim: true },
@@ -277,7 +277,7 @@ const content: SiteContent = {
     label: 'Our Team',
     headingLines: ['Minds Behind', 'the Machines.'],
     outlineIndex: 1,
-    intro: 'A dedicated core of specialists building the future of enterprise intelligence. No layers, no account managers\u2014you work directly with the people who build.',
+    intro: 'A dedicated core of specialists building the future of enterprise intelligence. No layers, no account managers you work directly with the people who build.',
     members: [
       { num: '01 / AI', name: 'Syed Ahmed Iqbal', role: 'CTO', focus: 'Technical strategy, AI architecture, and scalable full-stack solutions.', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781074799/kxqqacil2p5keayxni8o.jpg' },
       { num: '02 / Management', name: 'Shoaib Ahmed Sheikh', role: 'CEO', focus: 'Business strategy and operations.', imageUrl: 'https://res.cloudinary.com/dwnllmjtv/image/upload/v1781081695/s1iiek9euw41pqqv0ieu.jpg' },
@@ -303,7 +303,7 @@ const content: SiteContent = {
     headingText: 'What Our',
     headingHighlight: 'Clients Say.',
     slides: [
-      { quote: 'Thorvix didn\u2019t just write code\u2014they <strong>understood our business logic</strong> and built around it. The AI integration was seamless, the team was senior, and the results were immediate.', attribution: 'Marketing Head, Ren Solutions', location: 'Lahore, Pakistan' },
+      { quote: 'Thorvix didn\u2019t just write code they <strong>understood our business logic</strong> and built around it. The AI integration was seamless, the team was senior, and the results were immediate.', attribution: 'Marketing Head, Ren Solutions', location: 'Lahore, Pakistan' },
       { quote: 'The team moved fast, communicated clearly, and shipped exactly what we needed. We saw <strong>value from the first week.</strong>', attribution: 'Operations Lead, NovaCore', location: 'Dubai, UAE' },
       { quote: 'They made a complicated process feel simple. The <strong>product quality and follow-through</strong> were both excellent.', attribution: 'Founder, Apex Studio', location: 'London, UK' },
       { quote: 'Outstanding execution across the board. Their AI agents <strong>increased our support capacity by 3\u00d7</strong> without adding headcount.', attribution: 'VP Customer Success, TechFlow', location: 'San Francisco, USA' },

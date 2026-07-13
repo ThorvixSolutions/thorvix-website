@@ -1,5 +1,6 @@
 import { useState, FormEvent } from 'react';
 import { useSiteContent } from '../hooks/useSiteContent';
+import { sendBookingEmail, FALLBACK_EMAIL } from '../lib/emailjs';
 import { Modal } from '../ui/Modal';
 import { Input } from '../ui/Input';
 import { Select } from '../ui/Select';
@@ -20,17 +21,25 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
     setFormData(prev => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setStatus(null);
 
-    setTimeout(() => {
-      setStatus({ type: 'success', text: 'Message sent! We\'ll be in touch within 24 hours.' });
-      setIsSubmitting(false);
+    try {
+      await sendBookingEmail(formData);
+      setStatus({ type: 'success', text: "Message sent! We'll be in touch within 24 hours." });
       setFormData({});
       setTimeout(onClose, 2500);
-    }, 1000);
+    } catch (err) {
+      console.error('EmailJS error:', err);
+      setStatus({
+        type: 'error',
+        text: `Failed to send. Please email us directly at ${FALLBACK_EMAIL}`,
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

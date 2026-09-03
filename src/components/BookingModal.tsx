@@ -1,6 +1,6 @@
 import { useState, FormEvent } from 'react';
 import { useSiteContent } from '../hooks/useSiteContent';
-import { sendBookingEmail, FALLBACK_EMAIL } from '../lib/emailjs';
+import { sendBookingEmail, FALLBACK_EMAIL } from '../lib/web3forms';
 import { Modal } from '../ui/Modal';
 import { Input } from '../ui/Input';
 import { Select } from '../ui/Select';
@@ -26,13 +26,15 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
     setIsSubmitting(true);
     setStatus(null);
 
+    const botcheck = String(new FormData(e.currentTarget as HTMLFormElement).get('botcheck') ?? '');
+
     try {
-      await sendBookingEmail(formData);
+      await sendBookingEmail(formData, botcheck);
       setStatus({ type: 'success', text: "Message sent! We'll be in touch within 24 hours." });
       setFormData({});
       setTimeout(onClose, 2500);
     } catch (err) {
-      console.error('EmailJS error:', err);
+      console.error('Web3Forms error:', err);
       setStatus({
         type: 'error',
         text: `Failed to send. Please email us directly at ${FALLBACK_EMAIL}`,
@@ -59,6 +61,16 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+        {/* Honeypot: hidden from humans, Web3Forms drops submissions that fill it. */}
+        <input
+          type="checkbox"
+          name="botcheck"
+          className="hidden"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
+
         {modal.fields.map(field => {
           if (field.type === 'select' && field.options) {
             return (
